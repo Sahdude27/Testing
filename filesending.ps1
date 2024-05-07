@@ -7,13 +7,10 @@ $filePath = "C:\Users\SahDude27\Desktop\Hello.txt"
 # Read the file content
 $fileContent = Get-Content -Path $filePath -Raw
 
-# Convert the file content to Base64
-$fileContentBase64 = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($fileContent))
-
 # Define the JSON payload
 $json = @{
     content = "Here's the file you requested:"
-    file = $fileContentBase64
+    file = $fileContent
 }
 
 # Convert the JSON payload to JSON format
