@@ -2,7 +2,7 @@
 $webhookUrl = "https://discord.com/api/webhooks/1149830168903438358/9Doq-cehv0fkinqLVAg3wrGdtpNqCs0j8rM_OEuh1PQn6B8EstGbTZF8QGwsyT4sqVxS"
 
 # File to upload
-$fileToUpload = "C:\Users\SahDude27\Desktop\testingtetsing.txt"
+$fileToUpload = "C:\Users\SahDude27\Desktop\hello.txt"
 
 try {
     # Read the file content
