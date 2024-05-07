@@ -3,7 +3,7 @@ $webhookUrl = "https://discord.com/api/webhooks/1149830168903438358/9Doq-cehv0fk
 
 # JSON payload to send to the webhook
 $jsonPayload = @{
-    content = "Hello"
+    content = $message
 } | ConvertTo-Json
 
 # Send the payload to the webhook URL
