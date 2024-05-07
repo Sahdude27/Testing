@@ -1,8 +1,8 @@
 # Define the Discord webhook URL
-$webhookUrl = "YOUR_DISCORD_WEBHOOK_URL_HERE"
+$webhookUrl = "https://discord.com/api/webhooks/1149830168903438358/9Doq-cehv0fkinqLVAg3wrGdtpNqCs0j8rM_OEuh1PQn6B8EstGbTZF8QGwsyT4sqVxS"
 
 # Path to the text file you want to send
-$filePath = "C:\path\to\your\text_file.txt"
+$filePath = "C:\Users\SahDude27\Desktop\Hello.txt"
 
 # Read the content of the text file
 $fileContent = Get-Content -Path $filePath -Raw
