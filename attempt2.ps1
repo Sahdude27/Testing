@@ -2,7 +2,7 @@
 $webhookUrl = "https://discord.com/api/webhooks/1149830168903438358/9Doq-cehv0fkinqLVAg3wrGdtpNqCs0j8rM_OEuh1PQn6B8EstGbTZF8QGwsyT4sqVxS"
 
 # File to upload
-$fileToUpload = "C:\path\to\your\file.txt"
+$fileToUpload = "C:\Users\SahDude27\Desktop\testingtetsing.txt"
 
 # Read the file content
 $fileContent = Get-Content -Path $fileToUpload -Raw
@@ -17,7 +17,7 @@ $jsonPayload = @{
         content = "Message with an uploaded file"
         file = @{
             value = $fileContent
-            filename = "file.txt"
+            filename = "testingtetsing.txt"
             content_type = "text/plain"
         }
     } | ConvertTo-Json -Depth 10
